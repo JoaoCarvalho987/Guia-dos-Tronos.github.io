@@ -1,0 +1,108 @@
+html{
+scroll-behavior: smooth;
+}
+
+.ano{
+	margin-bottom: 5vh;
+}
+
+.gradiante{
+	background-image: linear-gradient(to bottom, #000000, #280300); 
+}
+
+
+.naoentra{
+	margin-top: 6.4%
+}
+
+
+#sobre{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center; 
+}
+.linha{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+
+
+.fundo{
+	background-image: linear-gradient(to bottom, #400701, #000000); 
+}
+
+#dest{
+	text-align: center;
+}
+.fundo-destaqu{
+	background-image: linear-gradient(to bottom, #280300, #400701);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: auto;
+}	
+.counts{
+	padding: 2% 0;
+}
+.count-box{
+	width: 100%;
+}
+
+.count-box span h4{
+	margin: auto;
+	display: block;
+	margin-left: 15vh
+}
+
+.count-box h5{
+
+}
+
+
+.tabela{
+	padding-top: 5em
+}
+th, td{
+	text-align: center;
+	width: 100%
+}
+table{
+	border-collapse: collapse;
+	width: 100%;
+}
+th, td{
+
+	padding: 15px;
+}
+
+.centro{
+	text-align: center;
+}
+
+
+
+@media (min-width: 576px) {
+  .naoentra{
+	margin-top: 6.4%
+	}
+}
+
+@media (min-width: 768px) {
+  .naoentra{
+	margin-top: 6.4%
+	}
+}
+
+@media (min-width: 992px) {
+  .naoentra{
+	margin-top: 6.4%
+	}
+}
+
+@media (min-width: 1200px) {
+  .naoentra{
+	margin-top: 6.4%
+	}
+}
