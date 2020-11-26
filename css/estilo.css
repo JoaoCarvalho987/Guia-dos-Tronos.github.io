@@ -2,6 +2,86 @@ html{
 scroll-behavior: smooth;
 }
 
+
+.conta{
+ padding:10px;
+}
+.foto{
+ font-family: 'MedievalSharp', cursive;
+ position: absolute;
+ top: 5px;
+}
+.fotofoto .comentario{
+	width: 300;
+}
+.foto2{
+ width:200px;
+ height:100px;
+ font-family: 'MedievalSharp', cursive;
+ position: absolute;
+ top: 5px;
+ line-height:100px;
+ display: hidden;
+}
+.comentario {
+	display: block;
+	position: absolute;
+ opacity: 0;
+}
+
+.foto:hover  .comentario{
+background-color: rgba(52, 58, 64, 0.9);
+position:relative; top:20px;
+left:100%;
+padding: 3%;
+ opacity: 1;
+ border-radius: 5px;
+ position:absolute;
+ padding:2px;
+ padding-top: -10em;
+ line-height:20px;
+ display: block;
+ color:#fff;
+ width:200%;
+
+ z-index:1000 ;
+
+ -webkit-transition: all 300ms ease;
+ -moz-transition: all 300ms ease;
+ -ms-transition: all 300ms ease;
+ -o-transition: all 300ms ease;
+ transition: all 300ms ease;
+}
+
+.foto2:hover  .comentario{
+background-color: rgba(52, 58, 64, 0.9);
+position:relative; top:80px;
+right:170px;
+padding: 3%;
+ opacity: 1;
+ border-radius: 5px;
+ position:absolute;
+ padding:2px;
+ padding-top: -10em;
+ line-height:20px;
+ display: block;
+ color:#fff;
+ width:200%;
+
+ z-index:1000 ;
+
+ -webkit-transition: all 300ms ease;
+ -moz-transition: all 300ms ease;
+ -ms-transition: all 300ms ease;
+ -o-transition: all 300ms ease;
+ transition: all 300ms ease;
+}
+
+
+
+
+
+
 .ano{
 	margin-bottom: 5vh;
 }
@@ -10,9 +90,25 @@ scroll-behavior: smooth;
 	background-image: linear-gradient(to bottom, #000000, #280300); 
 }
 
+.port{
+	background-image: linear-gradient(to bottom, #000000, #120200);
+}
 
+.final{
+	padding-top: 8%;
+	background-image: linear-gradient(to bottom, #120200, #1a0300);
+}
 .naoentra{
 	margin-top: 6.4%
+}
+
+.oie img{
+	transition: 0.4s;
+}
+.oie img:hover{
+	-webkit-transform: scale(1.05);
+	-ms-transform:scale(1.05);
+	transform: scale(1.05);
 }
 
 
@@ -43,6 +139,7 @@ scroll-behavior: smooth;
 	width: 100%;
 	height: auto;
 }	
+
 .counts{
 	padding: 2% 0;
 }
@@ -59,7 +156,57 @@ scroll-behavior: smooth;
 .count-box h5{
 
 }
+.textoLivros{
+}
 
+
+@media (min-width: 576px) {
+  .textoLivros{
+	margin-top: 4%
+	}
+  .port{
+	padding-top: 4%
+	}
+	 .naoentra{
+	margin-top: 6.4%
+	}
+}
+
+@media (min-width: 768px) {
+  .textoLivros{
+	margin-top: 4%
+	}
+  .port{
+	padding-top: 4%
+	}
+	 .naoentra{
+	margin-top: 6.4%
+	}
+}
+
+@media (min-width: 992px) {
+  .textoLivros{
+	margin-top: 4%
+	}
+  .port{
+	padding-top: 4%
+	}
+	 .naoentra{
+	margin-top: 6.4%
+	}
+}
+
+@media (min-width: 1200px) {
+  .textoLivros{
+	margin-top: 4%
+	}
+  .port{
+	padding-top: 4%
+	}
+	 .naoentra{
+	margin-top: 6.4%
+	}
+}
 
 .tabela{
 	padding-top: 5em
@@ -83,26 +230,5 @@ th, td{
 
 
 
-@media (min-width: 576px) {
-  .naoentra{
-	margin-top: 6.4%
-	}
-}
 
-@media (min-width: 768px) {
-  .naoentra{
-	margin-top: 6.4%
-	}
-}
 
-@media (min-width: 992px) {
-  .naoentra{
-	margin-top: 6.4%
-	}
-}
-
-@media (min-width: 1200px) {
-  .naoentra{
-	margin-top: 6.4%
-	}
-}
